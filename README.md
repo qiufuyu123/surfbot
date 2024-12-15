@@ -28,6 +28,7 @@
 ## 3. 如何使用？
 
 ### 1. 安装依赖
+**注意** 源代码不包含训练好的模型，模型请看下方指示到release页面下载
 ```
 pip3 install -r requirements.txt
 ```
@@ -43,7 +44,7 @@ pip3 install -r requirements.txt
 ![](pic/step1.png)
 
 ### 4. 启动
-**注意**: 如果使用预训练模型，请将release页面下载的模型放到同一目录下，并命名为model_v1.pth  
+**注意**: 如果使用预训练模型，请将[release](https://github.com/qiufuyu123/surfbot/releases)页面下载的模型放到同一目录下，并命名为model_v1.pth  
 - 执行:
 ```
 python.exe ./main.py
