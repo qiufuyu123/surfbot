@@ -1,13 +1,13 @@
 # Surfbot
 
-![](image.png)
+![](pic/image.png)
 
 ## 1. 这是什么？
 **surfbot**是一个基于pytorch和DQN深度学习算法的AI, 可以自动学习并游玩edge浏览器自带的[surf小游戏](edge://surf)(请用edge浏览器打开)  
 
 ## 2. 神经网络架构
 输入为64*64的灰度图，经过3个卷积层，flatten到1024个节点，然后经过一层隐藏层(512节点)，最终输出层为3个节点，分别代表左，下，右三种按键操作的概率
-![](net.png)
+![](pic/net.png)
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
@@ -40,7 +40,7 @@ pip3 install -r requirements.txt
 - 用windows徽标 + 左 键，将 edge浏览器放到左边
 - 然后将vscode或者cmd放到右边
 - 效果如图：
-![](step1.png)
+![](pic/step1.png)
 
 ### 4. 启动
 **注意**: 如果使用预训练模型，请将release页面下载的模型放到同一目录下，并命名为model_v1.pth  
@@ -53,9 +53,9 @@ python.exe ./main.py
 - 等待opencv窗口出现
 - 调整**top**滑块的数值(默认是0，如果效果差不多就不用改了)，直到游戏灰度图页面类似下图：  
 (游戏主体完全被窄黑色边框包裹，上方黑字类似下图正好卡在顶部位置)
-![](step2.png)
+![](pic/step2.png)
 - 调整剩下4个滑块，让底部的灰度图将分数显示完整包裹住：
-![](step3.png)
+![](pic/step3.png)
 
 ### 5. 运行模型  
 - 完成步骤4的调整后，在命令行里输入 **pause** 回车
