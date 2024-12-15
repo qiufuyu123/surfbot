@@ -1,0 +1,11 @@
+matplotlib==3.6.2
+mss==10.0.0
+numpy==1.24.1
+opencv_python==4.10.0.84
+PyAutoGUI==0.9.54
+PyGetWindow==0.0.9
+rich==13.9.4
+torch==2.5.1
+torchsummary==1.5.1
+tqdm==4.66.5
+visualtorch==0.2.3
